@@ -1,0 +1,29 @@
+{
+	"author": "daniel@acid.cl", 
+	"config_version": "2", 
+	"description": "An empty app created by default", 
+	"modules": {
+		"contact": true, 
+		"facebook": {
+			"appid": "440111576079727"
+		}, 
+		"file": true, 
+		"is": true, 
+		"logging": {
+			"level": "DEBUG"
+		}, 
+		"media": true, 
+		"prefs": true, 
+		"reload": true, 
+		"request": {
+			"permissions": [
+				"http://*/*", 
+				"https://*/*"
+			]
+		}, 
+		"tools": true
+	}, 
+	"name": "hacktemuco", 
+	"platform_version": "v1.4", 
+	"version": "0.1"
+}
